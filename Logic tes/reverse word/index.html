@@ -1,0 +1,17 @@
+<script>
+    let word1 = 'I am A Great human';
+
+    function checkPalindrome(input) {
+        let strArray = input.toLowerCase().split();
+        let newArr = strArray.join('')
+        let reverseArr = [...newArr].reverse().join('');
+
+
+        console.log(newArr)
+        console.log(reverseArr)
+
+
+    }
+
+    console.log(checkPalindrome(word1));
+</script>

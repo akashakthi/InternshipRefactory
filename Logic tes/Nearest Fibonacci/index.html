@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <script type="text/javascript">
+        var a, b, c, result;
+
+        a = 15
+        b = 3
+        c = 1
+        result = c;
+        for (var i = 1; i < 20; i++) {
+            document.write(result + "<br/>");
+            result = a + b + c;
+            a = b = c;
+            c = result;
+        }
+    </script>
+</head>
+
+</html>
